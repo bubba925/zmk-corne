@@ -25,8 +25,8 @@
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <100>;
+            tapping-term-ms = <175>;
+            quick-tap-ms = <(-1)>;
         };
         escape_snipping: escape_snipping {
             compatible = "zmk,behavior-tap-dance";
