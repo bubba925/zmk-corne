@@ -34,7 +34,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "ESCAPE_SNIPPING";
             #binding-cells = <0>;
-            bindings = <&kp ESCAPE>, <&kp LS(LG(S))>;
+            bindings = <&kp ESCAPE>, <&kp LC(PRINTSCREEN)>;
 
             tapping-term-ms = <250>;
         };
